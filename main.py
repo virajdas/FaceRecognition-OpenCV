@@ -11,7 +11,7 @@ while True:
         cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 255, 255), 1)
         cv2.putText(frame, "I See You", (x, y - 10), 1, 1.5, (255, 255, 255), 2)
 
-    cv2.imshow("I See You - Viraj", frame)
+    cv2.imshow("I See You - AI", frame)
 
     key = cv2.waitKey(1)
     if key == ord("q"):
